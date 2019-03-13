@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  }
+     /** Header styles **/
+     .header {
+        background-image:
+        url(https://lh3.googleusercontent.com/A7CCTI_8IBV8Zn_ZOl83u6BNgPOsvg9aswkfVD6A4PeDDSo5PFptWU6kWpl0uuTy8TrPwpshEMYRHuYGNKcThgN42bC46qdLJ2LRPx3rA_OAcOpVk82tVWMT0DuToqEFFB3uTVqWu7NJLyW5ue9NWq7mmoyDYD2kQ0EKkO01KmXZveu87oj51FS2efxLqIAbFp2JFPQc1-DdwryV5sNKH87rxmHMbLyUnUh_Zcf_xXQysoqnJDlonIIw4RIErVnmar8Z3tF45PFDh1K01XJXKTROEygJhUahdKCghrQ29Xw3K4wpZhiIiYvxdc24-Tst6kQ2h8ed7e3tgyXBiQSuWzF6fDL13ivg7R7kdlfPq01XFP4ZosimXB1eaNZccTRLkpNqW4P1PxTcySyRgubb3KyTEF3aPE_ZDWMYFxsOc-B9lMDnwT2LlxumiWjxlVLlnRffz4WDbNiyddXECE3_3vGEeaASSLMM0m4VF8fsLm0v9SqhuO7CLN3oK1x8edKGDN8Jr5Mif_maew0XX4Z7jG5DtGhHmpunf5sqoc_15C-zESRlMUjb4PpcPoiTErjgg-i8_33JQcWBL7FBtWbla2H3NAYoTH2m0bo56SjERgyCClp6hXqQTbBlpZyh3eA4EckGWY_F0aFu-4mChjZ63gOjL8VdfzI=w640-h480-no);
+        height: 400px;
+        background-position: center center;
+}
+
+.roasting {
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: white;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.roasting p {
+  color: #938E89;
+  text-align: center;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.spectrum div {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+/* Roast types */
+.green {
+  background-color: rgb(206, 172, 79);
+}
+
+.light {
+  background-color: rgb(150, 130, 88);
+}
+
+.city {
+  background-color: rgb(78, 43, 17);
+}
+
+.vienna {
+  background-color: #A52A2A;
+}
+
+.italian {
+  background-color: #000000;
+}
+
+/* Typography */
+h1 {
+  color:whitesmoke;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+h2 {
+  color: #E4BB97;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #41292C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: .2em;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+/* Page elements */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 75%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
